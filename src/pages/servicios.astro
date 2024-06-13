@@ -2,6 +2,11 @@
 import Navigation from "../components/Navigation.astro";
 import Footer from "../components/Footer.astro";
 import "../styles/globals.css";
+import { Image } from 'astro:assets';
+import detailing from '../assets/imagenes/detailing.jpg';
+import repair from '../assets/imagenes/repair.jpg';
+import motor from '../assets/imagenes/motorstock.jpg';
+
 ---
 
 <html lang="en">
@@ -56,7 +61,7 @@ import "../styles/globals.css";
     </p>
   </div>
   <div class="w-full lg:w-1/2">
-    <img src="../../public/repair.jpg" class="w-full h-auto" alt="Repairing Stock">
+<Image src={repair} alt="reparación de coches en leioa"/>
   </div>
 </div>
 
@@ -88,7 +93,7 @@ import "../styles/globals.css";
     </p>
   </div>
   <div class="w-full lg:w-1/2">
-    <img src="../../public/detailing.jpg" class="w-full h-auto" alt="Detailing">
+<Image alt="pre revision itv" src={detailing}/>
   </div>
 </div>
 
@@ -115,7 +120,7 @@ import "../styles/globals.css";
     </p>
   </div>
   <div class="w-full lg:w-1/2">
-    <img src="../../public/motorstock.jpg" class="w-full h-auto" alt="Motor Stock">
+<Image src={motor} alt="reparación de motor"/>
   </div>
 </div>
 
