@@ -1,0 +1,124 @@
+---
+import Navigation from "../components/Navigation.astro";
+import Footer from "../components/Footer.astro";
+import "../styles/globals.css";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Taller Mirador</title>
+  </head>
+  <body>
+    <header>
+      <Navigation />
+    </header>
+    <div class="pt-6 pl-4"></div>
+<div class="flex flex-col lg:flex-row text-mcorange text-xl font-bold pl-4 pt-8">
+  <div class="servicios-card w-full lg:w-1/2 mb-8 lg:mb-0 lg:mr-4">
+    <h2 class="text-white pb-2">Reparaciones generales</h2>
+    <p class="text-white pb-4">
+      Algunas de las averías más frecuentes que atendemos incluyen:
+      <ul class="text-white text-sm">
+        <li class="pb-2">
+          <span class="text-mcorange">Sistema de Frenos:</span> Desde el desgaste
+          de las pastillas y discos hasta problemas en el sistema hidráulico,
+          garantizamos frenos seguros y eficientes para su vehículo.
+        </li>
+        <li class="pb-2">
+          <span class="text-mcorange">Sistema de suspensión:</span> Nos ocupamos
+          de problemas como amortiguadores desgastados, ruidos en la suspensión
+          y problemas de alineación que afectan la estabilidad y el confort
+          de conducción.
+        </li>
+        <li class="pb-2">
+          <span class="text-mcorange">Problemas de Motor:</span> Diagnosticamos
+          y reparamos fallos en el motor, desde problemas eléctricos y fallos
+          de encendido hasta fugas de líquidos y problemas con la gestión electrónica
+          del motor (ECU).
+        </li>
+        <li class="pb-2">
+          <span class="text-mcorange">Sistemas de dirección:</span> Ajustamos
+          y reparamos problemas de dirección, incluyendo la alineación y el
+          desgaste de la dirección asistida para asegurar un manejo seguro
+          y sin problemas.
+        </li>
+        <li class="pb-2">
+          <span class="text-mcorange">Sistema electrico:</span> Solucionamos
+          problemas eléctricos como luces fundidas, problemas con el sistema
+          de arranque y baterías descargadas, utilizando equipos de diagnóstico
+          avanzados para localizar y resolver fallos rápidamente.
+        </li>
+      </ul>
+    </p>
+  </div>
+  <div class="w-full lg:w-1/2">
+    <img src="../../public/repair.jpg" class="w-full h-auto" alt="Repairing Stock">
+  </div>
+</div>
+
+<div class="flex flex-col lg:flex-row text-mcorange text-xl font-bold pl-4 pt-8">
+  <div class="servicios-card w-full lg:w-1/2 mb-8 lg:mb-0 lg:mr-4">
+    <h2 class="text-white pb-2">Revisión pre-itv y revisión general</h2>
+    <p class="text-white text-sm pb-4">
+      Ofrecemos un servicio completo de revisión pre-ITV diseñado para
+      garantizar que su vehículo cumpla con todos los requisitos
+      necesarios antes de pasar la Inspección Técnica de Vehículos (ITV).
+      Nuestro equipo de técnicos especializados realiza una exhaustiva
+      revisión que abarca desde el funcionamiento de los sistemas de
+      iluminación y señalización hasta la adecuada adherencia de los
+      neumáticos y el correcto estado de los frenos. Nos aseguramos de que
+      su vehículo esté en óptimas condiciones para superar la inspección y
+      obtener la correspondiente documentación sin contratiempos.
+    </p>
+    <p class="text-white text-sm pb-4">
+      La revisión general es un servicio integral diseñado para mantener
+      su vehículo en perfectas condiciones de funcionamiento y seguridad.
+      Nuestros técnicos altamente capacitados realizan una revisión
+      detallada de todos los aspectos clave de su vehículo, incluyendo el
+      sistema de frenos, la suspensión, el motor, la dirección y la
+      transmisión. También nos aseguramos de verificar el estado de los
+      fluidos, la alineación de las ruedas y la funcionalidad de los
+      sistemas eléctricos para garantizar un rendimiento óptimo y la
+      máxima fiabilidad en carretera. Confíe en nosotros para mantener su
+      vehículo en su mejor estado y alargar su vida útil.
+    </p>
+  </div>
+  <div class="w-full lg:w-1/2">
+    <img src="../../public/detailing.jpg" class="w-full h-auto" alt="Detailing">
+  </div>
+</div>
+
+<div class="flex flex-col lg:flex-row text-mcorange text-xl font-bold pl-4 pt-8">
+  <div class="servicios-card w-full lg:w-1/2 mb-8 lg:mb-0 lg:mr-4">
+    <h2 class="text-white pb-2">Mantenimiento</h2>
+    <p class="text-white text-sm pb-4">
+      Creemos que un mantenimiento regular es como darle un abrazo a tu
+      auto. Es esa atención cariñosa que mantiene a tu compañero de viaje
+      en las mejores condiciones para todas las aventuras que te esperan
+      en la carretera. Desde cambiar el aceite hasta ajustar las tuercas,
+      nuestro equipo se asegura de que tu coche esté siempre en su mejor
+      forma. ¿Necesitas una revisión general? Nosotros lo hacemos con una
+      sonrisa. ¿Problemas con los frenos o el aire acondicionado? Estamos
+      aquí para resolverlos rápido y eficientemente. En [Nombre de tu
+      taller mecánico], nos preocupamos por tu seguridad y comodidad.
+      Mantenemos tu vehículo en perfecto estado para que puedas disfrutar
+      de cada kilómetro sin preocupaciones.
+    </p>
+    <p class="pt-2 pb-2 text-white text-sm">
+      Así que, ya sea que estés planeando un largo viaje o simplemente
+      quieres que tu coche se vea y se sienta genial, estamos aquí para
+      garantizar que cada detalle esté perfectamente cuidado.
+    </p>
+  </div>
+  <div class="w-full lg:w-1/2">
+    <img src="../../public/motorstock.jpg" class="w-full h-auto" alt="Motor Stock">
+  </div>
+</div>
+
+    <Footer />
+  </body>
+</html>

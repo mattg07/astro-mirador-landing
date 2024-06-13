@@ -1,0 +1,42 @@
+body {
+  background: linear-gradient(to center, rgba(12, 29, 54, 1),rgb(20, 20, 20));
+  background-color: rgb(21, 23, 26);
+}
+
+.hero {  background-image: url('../assets/hero-img.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 95%;
+  padding-top: 5px;
+  margin: auto;
+  opacity: 0.8;
+  border-radius: 5%;
+}
+.hidden {
+        opacity: 0; 
+            visibility: hidden;
+}
+.info {
+  transition: opacity 2s, visibility 0.5    s; 
+    padding-bottom: 20px;
+            opacity: 1; 
+}
+
+
+.preguntas{  background: linear-gradient(to left, rgba(13, 21, 34, 0.384),rgba(34, 24, 11, 0.281));
+    background-color:rgba(27, 28, 31, 0.644) ;
+}/* Define the linear gradient */
+.gradient-bg {
+    background: linear-gradient(to right, #272727, #0e224073, #2222223a);
+}
+
+/* Apply to your footer element */
+.footer {
+    background: linear-gradient(to right, #27272765, #0e224046, #222222);
+    /* Add other styling for your footer */
+    /* For example: */
+    color: white; /* Set text color */
+    padding: 20px; /* Add padding */
+}
+
