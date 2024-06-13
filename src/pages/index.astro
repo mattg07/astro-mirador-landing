@@ -33,7 +33,7 @@ import { Icon } from "astro-icon/components";
 <div class="m-auto flex flex-col mt-20 mb-20 px-4 sm:px-16 py-12">
   <div class="border rounded-md border-mcorange p-8 mb-8">
     <h2 class="text-lg text-mcorange">Sobre Nosotros</h2>
-    <h4 class="text-white text-md text-justify mt-4">
+    <h4 class="text-white text-justify text-md text-justify mt-4">
       Taller Mirador, donde cada cliente es nuestra prioridad. Somos un taller
       automotriz altamente dedicado, ubicado en el corazón de la comunidad. Con
       años de experiencia y un compromiso inquebrantable con la calidad, nos
@@ -53,115 +53,108 @@ import { Icon } from "astro-icon/components";
   </div>
 </div>
 
-    <div class="w-3/5 preguntas pb-10 mb-20 m-auto rounded-md">
-      <h2 class="text-mcorange m-auto text-center pb-4 text-xl">
-        Preguntas frecuentes
+   <div class="w-full md:w-3/5 preguntas pb-10 mb-20 m-auto rounded-md">
+  <h2 class="text-mcorange m-auto text-center pb-4 text-xl">
+    Preguntas frecuentes
+  </h2>
+  <div class="question-card mt-4 pb-4 px-4">
+    <button class="toggledown">
+      <h3 class="flex items-center text-white text-md">
+        Cada cuanto deberia realizar el mantenimiento del coche? 
+        <Icon class="pl-2 text-2xl" name="downarrow" />
+      </h3>
+    </button>
+    <div class="info hidden">
+      <h2 class="text-white font-bold p-2 opacity-">
+        El mantenimiento depende del estado general del coche y sus
+        necesidades, pero puedes usar esta referencia como guia:
       </h2>
-      <div class="question-card mt-4 pb-4 pl-4">
-        <button class="toggledown"
-          ><h3 class="flex items-center text-white text-md">
-            Cada cuanto deberia realizar el mantenimiento del coche? <Icon
-              class="pl-2 text-2xl"
-              name="downarrow"
-            />
-          </h3>
-        </button>
-        <div class="info hidden">
-          <h2 class="text-white font-bold p-2 opacity-">
-            El mantenimiento depende del estado general del coche y sus
-            necesidades, pero puedes usar esta referencia como guia:
-          </h2>
-          <h2 class="text-md text-mcorange">
-            Cada 5,000 Km a 7,000 Km ( o cada 6 meses):
-          </h2>
-          <ul class="text-white">
-            <li>Cambio de aceite y filtro</li>
-            <li>
-              Revisión de líquidos (refrigerante, frenos, dirección,
-              limpiaparabrisas, transmisión)
-            </li>
-            <li>Revisión de neumáticos (presión y desgaste) F</li>
-          </ul>
-          <h2 class="text-md text-mcorange">Cada 15,000 a 30,000 km:</h2>
-          <ul class="text-white">
-            <li>Cambio de filtro de aire</li>
-            <li>Inspección de frenos</li>
-          </ul>
-          <h2 class="text-md text-mcorange">Cada 100,000 a 150,000 km:</h2>
-          <ul class="text-white">
-            <li>Cambio de correa de distribuición</li>
-          </ul>
-        </div>
-      </div>
-      <div class="question-card mt-4 pb-4 pl-4">
-        <button class="toggledown"
-          ><h3 class="flex items-center text-white text-md">
-            Que se realiza en la revisión Pre Itv? <Icon
-              class="pl-2 text-2xl"
-              name="downarrow"
-            />
-          </h3>
-        </button>
-        <div class="info hidden">
-          <h2 class="text-white font-bold opacity-0.5 text-justify p-2">
-            Durante la pre-revisión, se llevan a cabo diferentes actividades
-            para verificar el estado general del vehículo y detectar posibles
-            problemas que podrían llevar a un fallo durante la inspección ITV
-            oficial. Algunas de las acciones que se realizan durante la
-            pre-revisión ITV incluyen:
-          </h2>
-          <h2 class="text-md text-mcorange"></h2>
-          <ul class="text-white list-disc list-inside">
-            <li>
-              Revisión general del exterior del vehículo: retrovisores, espejos,
-              lunas, matrícula, etc.
-            </li>
-            <li>
-              Estado actual de la carrocería y conservación de todos sus
-              elementos, así como comprobación del interior del coche, desde el
-              uso funcionamiento de ventanillas y puertas, pasando por revisión
-              de cinturones, etc.
-            </li>
-            <li>Diagnóstico de suspensión y ejes, circuito de frenos, etc.</li>
-          </ul>
-        </div>
-      </div>
-      <div class="question-card mt-4 pb-4 pl-4">
-        <button class="toggledown"
-          ><h3 class="flex items-center text-white text-md">
-            ¿Puedo obtener un presupuesto antes de realizar la reparación?
-
-            <Icon class="pl-2 text-2xl" name="downarrow" />
-          </h3>
-        </button>
-        <div class="info hidden">
-          <h2 class="text-white font-bold opacity-0.5 text-justify p-2">
-            En nuestro taller siempre proporcionamos presupuestos detallados
-            antes de iniciar cualquier reparación. Nos aseguramos de que
-            nuestros clientes estén completamente informados sobre los costos
-            involucrados y cualquier trabajo adicional que pueda ser necesario.
-            Esto nos permite garantizar transparencia y satisfacción en cada
-            servicio que realizamos
-          </h2>
-         
-        </div>
-      </div>
-	        <div class="question-card mt-4 pb-4 pl-4">
-        <button class="toggledown"
-          ><h3 class="flex items-center text-white text-md">
-Como sacar una cita o comunicarme con ustedes?
-            <Icon class="pl-2 text-2xl" name="downarrow" />
-          </h3>
-        </button>
-        <div class="info hidden">
-          <h2 class="text-white font-bold opacity-0.5 text-justify p-2">
-       Puedes escribirnos un whatsapp, email o acercandote a nuestro taller. 
-	   En la sección de contacto tienes toda nuestra información de contacto.
-          </h2>
-         
-        </div>
-      </div>
+      <h2 class="text-md text-mcorange">
+        Cada 5,000 Km a 7,000 Km (o cada 6 meses):
+      </h2>
+      <ul class="text-white list-disc list-inside pl-4">
+        <li>Cambio de aceite y filtro</li>
+        <li>
+          Revisión de líquidos (refrigerante, frenos, dirección,
+          limpiaparabrisas, transmisión)
+        </li>
+        <li>Revisión de neumáticos (presión y desgaste)</li>
+      </ul>
+      <h2 class="text-md text-mcorange">Cada 15,000 a 30,000 km:</h2>
+      <ul class="text-white list-disc list-inside pl-4">
+        <li>Cambio de filtro de aire</li>
+        <li>Inspección de frenos</li>
+      </ul>
+      <h2 class="text-md text-mcorange">Cada 100,000 a 150,000 km:</h2>
+      <ul class="text-white list-disc list-inside pl-4">
+        <li>Cambio de correa de distribución</li>
+      </ul>
     </div>
+  </div>
+  <div class="question-card mt-4 pb-4 px-4">
+    <button class="toggledown">
+      <h3 class="flex items-center text-white text-md">
+        Que se realiza en la revisión Pre Itv? 
+        <Icon class="pl-2 text-2xl" name="downarrow" />
+      </h3>
+    </button>
+    <div class="info hidden">
+      <h2 class="text-white font-bold opacity-0.5 text-justify p-2">
+        Durante la pre-revisión, se llevan a cabo diferentes actividades
+        para verificar el estado general del vehículo y detectar posibles
+        problemas que podrían llevar a un fallo durante la inspección ITV
+        oficial. Algunas de las acciones que se realizan durante la
+        pre-revisión ITV incluyen:
+      </h2>
+      <ul class="text-white list-disc list-inside pl-4">
+        <li>
+          Revisión general del exterior del vehículo: retrovisores, espejos,
+          lunas, matrícula, etc.
+        </li>
+        <li>
+          Estado actual de la carrocería y conservación de todos sus
+          elementos, así como comprobación del interior del coche, desde el
+          uso funcionamiento de ventanillas y puertas, pasando por revisión
+          de cinturones, etc.
+        </li>
+        <li>Diagnóstico de suspensión y ejes, circuito de frenos, etc.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="question-card mt-4 pb-4 px-4">
+    <button class="toggledown">
+      <h3 class="flex items-center text-white text-md text-justify">
+        ¿Puedo obtener un presupuesto antes de realizar la reparación?
+        <Icon class="pl-2 text-2xl" name="downarrow" />
+      </h3>
+    </button>
+    <div class="info hidden">
+      <h2 class="text-white font-bold opacity-0.5 text-justify p-2">
+        En nuestro taller siempre proporcionamos presupuestos detallados
+        antes de iniciar cualquier reparación. Nos aseguramos de que
+        nuestros clientes estén completamente informados sobre los costos
+        involucrados y cualquier trabajo adicional que pueda ser necesario.
+        Esto nos permite garantizar transparencia y satisfacción en cada
+        servicio que realizamos.
+      </h2>
+    </div>
+  </div>
+  <div class="question-card mt-4 pb-4 px-4">
+    <button class="toggledown">
+      <h3 class="flex items-center text-white text-md">
+        Como sacar una cita o comunicarme con ustedes?
+        <Icon class="pl-2 text-2xl" name="downarrow" />
+      </h3>
+    </button>
+    <div class="info hidden">
+      <h2 class="text-white font-bold opacity-0.5 text-justify p-2">
+        Puedes escribirnos un whatsapp, email o acercandote a nuestro taller. 
+        En la sección de contacto tienes toda nuestra información de contacto.
+      </h2>
+    </div>
+  </div>
+</div>
+
 <Footer/>
     <script type="text/javascript">
       document.addEventListener("DOMContentLoaded", (event) => {
